@@ -1,0 +1,94 @@
+.header {
+  position: relative;
+  background-image: url("/images/home_site_1.png"); 
+  background-size: cover;
+  background-position: center;
+  height: 90vh; 
+  padding: 0;
+  color: white;
+}
+
+.teste {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transform: translateX(-50%);
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.header a:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--quick-sand);
+  padding-top: 1rem;
+}
+
+.container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header ul a {
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.menu_container {
+  position: relative;
+  font-family: var(--quick-sand);
+}
+
+.cart {
+  font-family: var(--quick-sand);
+
+}
+
+.menu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+
+}
+
+.menu_container:hover .menu {
+  display: block;
+}
+
+.menu a {
+  width: 100%;
+  min-width: 8rem;
+}
+
+.cart_count {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 0.1rem 0.45rem;
+  border-radius: 100rem;
+  font-size: 0.9rem;
+}
